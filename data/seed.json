@@ -1,0 +1,97 @@
+{
+  "profiles": [
+    { "id": "p1", "name": "Avery Stone", "age": 29, "city": "Miami", "bio": "Fake person. Loves sunrise walks and bad puns.", "interests": ["walking", "coffee", "puns"], "lookingFor": "Someone to try new cafes with", "color": "#4b36d9",
+      "prompts": [
+        { "question": "My ideal Sunday", "answer": "A long walk, a flat white, and a book I will not finish." },
+        { "question": "I'm weirdly good at", "answer": "Finding the best parking spot on the first try." },
+        { "question": "We'll get along if", "answer": "You laugh at puns, even the groaners." }
+      ] },
+    { "id": "p2", "name": "Jordan Reyes", "age": 32, "city": "Miami Beach", "bio": "Fake person. Makes a very average paella.", "interests": ["cooking", "beach", "podcasts"], "lookingFor": "A relaxed, funny partner", "color": "#d9634b",
+      "prompts": [
+        { "question": "My ideal Sunday", "answer": "Beach in the morning, cooking for friends at night." },
+        { "question": "I'm weirdly good at", "answer": "Remembering what everyone ordered at a restaurant." },
+        { "question": "We'll get along if", "answer": "You will taste my paella and be kind about it." }
+      ] },
+    { "id": "p3", "name": "Sam Okafor", "age": 27, "city": "Coral Gables", "bio": "Fake person. Board game champion of nobody.", "interests": ["board games", "hiking", "jazz"], "lookingFor": "A game night buddy", "color": "#3f8f3a",
+      "prompts": [
+        { "question": "My ideal Sunday", "answer": "A short hike, then a board game that takes three hours." },
+        { "question": "I'm weirdly good at", "answer": "Reading the rules so nobody else has to." },
+        { "question": "We'll get along if", "answer": "You do not flip the table when you lose." }
+      ] },
+    { "id": "p4", "name": "Riley Chen", "age": 35, "city": "Miami", "bio": "Fake person. Collects houseplants and names them.", "interests": ["plants", "yoga", "movies"], "lookingFor": "Something calm and kind", "color": "#c28a1c",
+      "prompts": [
+        { "question": "My ideal Sunday", "answer": "Water the plants, stretch, watch a movie I have seen ten times." },
+        { "question": "I'm weirdly good at", "answer": "Keeping a fern alive for five years." },
+        { "question": "We'll get along if", "answer": "You do not mind a very green apartment." }
+      ] },
+    { "id": "p5", "name": "Casey Morgan", "age": 41, "city": "Fort Lauderdale", "bio": "Fake person. Weekend sailor, weekday spreadsheet fan.", "interests": ["sailing", "spreadsheets", "tacos"], "lookingFor": "A co-pilot for weekends", "color": "#2a7fb8",
+      "prompts": [
+        { "question": "My ideal Sunday", "answer": "On the water by 8, tacos by 1, nap by 2." },
+        { "question": "I'm weirdly good at", "answer": "Making a budget for a trip that is still a daydream." },
+        { "question": "We'll get along if", "answer": "You can steer a small boat or hold a map." }
+      ] },
+    { "id": "p6", "name": "Taylor Brooks", "age": 26, "city": "Miami", "bio": "Fake person. Learning guitar, still only knows three chords.", "interests": ["guitar", "running", "tacos"], "lookingFor": "A fun, honest match", "color": "#b8326f",
+      "prompts": [
+        { "question": "My ideal Sunday", "answer": "A morning run and a loud afternoon with my guitar." },
+        { "question": "I'm weirdly good at", "answer": "Knowing every taco truck within five miles." },
+        { "question": "We'll get along if", "answer": "You can listen to the same three chords with a straight face." }
+      ] },
+    { "id": "p7", "name": "Morgan Ellis", "age": 38, "city": "Hialeah", "bio": "Fake person. Will talk about bread for hours.", "interests": ["baking", "gardening", "history"], "lookingFor": "A good listener", "color": "#6d4bd9",
+      "prompts": [
+        { "question": "My ideal Sunday", "answer": "Sourdough in the oven and tomatoes in the garden." },
+        { "question": "I'm weirdly good at", "answer": "Remembering dates from history class." },
+        { "question": "We'll get along if", "answer": "You ask me about bread and mean it." }
+      ] },
+    { "id": "p8", "name": "Dana Whitfield", "age": 45, "city": "Key Biscayne", "bio": "Fake person. Reads a book a week and lies about it being two.", "interests": ["books", "swimming", "wine"], "lookingFor": "A long-term partner", "color": "#1c8a7a",
+      "prompts": [
+        { "question": "My ideal Sunday", "answer": "Swim at dawn, then a book on the porch until dinner." },
+        { "question": "I'm weirdly good at", "answer": "Picking a wine by the label and being right." },
+        { "question": "We'll get along if", "answer": "You like quiet evenings and good stories." }
+      ] },
+    { "id": "p9", "name": "Quinn Alvarez", "age": 31, "city": "Wynwood", "bio": "Fake person. Muralist on weekends, barista on weekdays.", "interests": ["art", "coffee", "bikes"], "lookingFor": "Someone creative", "color": "#d94b8f",
+      "prompts": [
+        { "question": "My ideal Sunday", "answer": "Bike to a wall, paint until the light is gone." },
+        { "question": "I'm weirdly good at", "answer": "Drawing a cat in under ten seconds." },
+        { "question": "We'll get along if", "answer": "You will hold the ladder and tell me the truth about the colors." }
+      ] },
+    { "id": "p10", "name": "Jamie Patel", "age": 28, "city": "Brickell", "bio": "Fake person. Climbs walls, falls off couches.", "interests": ["climbing", "sushi", "travel"], "lookingFor": "An adventure friend first", "color": "#8a6a1c",
+      "prompts": [
+        { "question": "My ideal Sunday", "answer": "Climbing gym, sushi, then a map of the next trip." },
+        { "question": "I'm weirdly good at", "answer": "Packing a bag for a week in one small carry-on." },
+        { "question": "We'll get along if", "answer": "You say yes to a spontaneous road trip." }
+      ] }
+  ],
+  "likes": [
+    { "from": "p2", "to": "p1" },
+    { "from": "p3", "to": "p1" },
+    { "from": "p4", "to": "p1" },
+    { "from": "p1", "to": "p4" },
+    { "from": "p5", "to": "p6" },
+    { "from": "p5", "to": "p1" },
+    { "from": "p8", "to": "p1" },
+    { "from": "p1", "to": "p9" },
+    { "from": "p9", "to": "p1" },
+    { "from": "p1", "to": "p10" },
+    { "from": "p10", "to": "p1" },
+    { "from": "p2", "to": "p6" },
+    { "from": "p6", "to": "p2" }
+  ],
+  "passes": [
+    { "from": "p1", "to": "p7" }
+  ],
+  "matches": [
+    { "id": "m1", "a": "p1", "b": "p4" },
+    { "id": "m2", "a": "p1", "b": "p9" },
+    { "id": "m3", "a": "p1", "b": "p10" },
+    { "id": "m4", "a": "p2", "b": "p6" }
+  ],
+  "messages": [
+    { "id": "msg1", "matchId": "m1", "from": "p4", "text": "Hi Avery! Your bio made me laugh.", "at": "2026-10-28T18:00:00.000Z" },
+    { "id": "msg2", "matchId": "m1", "from": "p1", "text": "Thanks Riley! What are your plants called?", "at": "2026-10-28T18:05:00.000Z" },
+    { "id": "msg3", "matchId": "m1", "from": "p4", "text": "Gary, Gary Jr. and Kevin.", "at": "2026-10-28T18:07:00.000Z" },
+    { "id": "msg4", "matchId": "m2", "from": "p9", "text": "Your Sunday sounds like mine. Do you like murals?", "at": "2026-10-29T09:12:00.000Z" },
+    { "id": "msg5", "matchId": "m2", "from": "p1", "text": "I do! Show me your favorite wall in Wynwood.", "at": "2026-10-29T09:30:00.000Z" },
+    { "id": "msg6", "matchId": "m4", "from": "p6", "text": "Do you know a good taco truck?", "at": "2026-10-27T20:15:00.000Z" },
+    { "id": "msg7", "matchId": "m4", "from": "p2", "text": "I know three. Pick a day.", "at": "2026-10-27T20:40:00.000Z" }
+  ]
+}
